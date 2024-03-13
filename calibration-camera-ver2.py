@@ -58,7 +58,7 @@ def calibrate(showPics=True):
 
 def removeDistortion(camMatrix,distCoeff): 
     root = os.getcwd()
-    imgPath = os.path.join(root,'img/img1.jpg')
+    imgPath = os.path.join(root,'8-5/img1-kiri-atas-1.jpg.jpg')
     img = cv.imread(imgPath)
     
     height,width = img.shape[:2]
